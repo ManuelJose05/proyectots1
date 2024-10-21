@@ -1,7 +1,7 @@
 import { searchImage } from "./services/image_service";
 import { Activity } from "./utils/activity";
 
-const endpoint = 'http://bored.api.lewagon.com/api/activity/';
+const endpoint = 'https://bored.api.lewagon.com/api/activity/';
 let parrafo = document.getElementsByTagName("p")[0];
 
 function httpActivity(){
