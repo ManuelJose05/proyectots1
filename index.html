@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividades Alumnos 2ºDAM</title>
+    <link rel="stylesheet" type="text/css" href="src/styles/style.css">
+   </head>
+  <body>
+      <h2 class="">Actividades BoredApi</h2>
+      <div class="form-group">
+        Tipo de actividad: 
+  <select id="tipos">
+      <option value="recreational">Recreational</option>
+      <option value="education">Education</option>
+      <option value="social">Social</option>
+      <option value="cooking">Cooking</option>
+  </select>
+  <br>
+  <br>
+  Número de participantes: <input type="number" id="participantes" value="1">
+
+  <input type="button" class="btn btn-primary" value="Buscar actividad" id="boton">
+      </div>
+  <p></p>
+
+  <img id="ponerImg">
+  <script type="module" src="src/peticion.ts"></script>
+  </body>
+</html>
+
